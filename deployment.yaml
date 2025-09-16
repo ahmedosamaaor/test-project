@@ -4,6 +4,7 @@ kind: Deployment
 metadata:
   labels:
     app: bubble-animation
+    namespace: bubble-animation
   name: bubble-animation
 spec:
   replicas: 1
